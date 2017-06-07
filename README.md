@@ -20,6 +20,7 @@ var config = {
 
 * [WebRTC](https://webrtc.org/) - Used for real-time communication
 * [Firebase](https://firebase.google.com/) - Used for signaling
+* [Bootstrap](http://getbootstrap.com/) - Used for styling
 
 ## Authors
 
