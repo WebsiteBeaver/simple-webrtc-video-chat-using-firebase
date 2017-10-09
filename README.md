@@ -2,6 +2,10 @@
 
 This is a 1-to-1 video chat using WebRTC and Firebase as the signaling server. You can use socket.io for your signaling server instead of Firebase, but this uses Firebase to keep things simple. If you've never used WebRTC, this is the perfect repo for you to learn the basics.
 
+## Demo
+
+Try out the demo at https://codepen.io/dmarcus/pen/PWmRmj. Open the CodePen on two different computers or mobile phones, press change the Firebase credentials and Viagenie credentials as described below, and press call to see the 1-to-1 video chat in action.
+
 ## Getting Started
 
 Create a Firebase account, and replace these credentials with your credentials. Be sure to make it readable and writable to the world as explained in the [tutorial](https://websitebeaver.com/insanely-simple-webrtc-video-chat-using-firebase-with-codepen-demo). These credentials are found in [js/script.js](https://github.com/WebsiteBeaver/simple-webrtc-video-chat-using-firebase/blob/master/js/script.js)
@@ -19,7 +23,7 @@ var config = {
 You should also create an account on [Viagenie](http://numb.viagenie.ca/), and replace the following code from [js/script.js](https://github.com/WebsiteBeaver/simple-webrtc-video-chat-using-firebase/blob/master/js/script.js) with the information from your account.
 
 ```
-{'url': 'turn:numb.viagenie.ca','credential': 'websitebeaver','username': 'websitebeaver@email.com'}
+{'urls': 'turn:numb.viagenie.ca','credential': 'websitebeaver','username': 'websitebeaver@email.com'}
 ```
 
 ## Built With
