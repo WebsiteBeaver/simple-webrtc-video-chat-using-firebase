@@ -1,10 +1,18 @@
 # Simple WebRTC Video Chat Using Firebase
 
+![Simple WebRTC Video Chat Using Firebase](https://user-images.githubusercontent.com/26162804/31845534-ac2cca0c-b5cf-11e7-8874-94c4d978fcb8.jpg)
+
 This is a 1-to-1 video chat using WebRTC and Firebase as the signaling server. You can use socket.io for your signaling server instead of Firebase, but this uses Firebase to keep things simple. If you've never used WebRTC, this is the perfect repo for you to learn the basics.
 
 ## Demo
 
-Try out the demo at https://codepen.io/dmarcus/pen/PWmRmj. Open the CodePen on two different computers or mobile phones, press change the Firebase credentials and Viagenie credentials as described below, and press call to see the 1-to-1 video chat in action.
+Try out the demo at https://codepen.io/dmarcus/pen/PWmRmj. Open the CodePen on two different computers or mobile phones, press change the Firebase credentials and Viagenie credentials as described below, and press call to see the 1-to-1 video chat in action. Here's a video showing us using the demo:
+
+[![Demo of WebRTC Video Chat](https://user-images.githubusercontent.com/26162804/31845610-968e0372-b5d0-11e7-8533-63a383c27f98.jpg)](https://www.youtube.com/watch?v=VsPco9VYSfs)
+
+## Tutorial
+
+You don't need to follow this tutorial. You change simply download this repo, and run the code on your https server. But if you'd like to understand how the code works, take a look at [the tutorial ](https://websitebeaver.com/insanely-simple-webrtc-video-chat-using-firebase-with-codepen-demo) that goes with this repo.
 
 ## Getting Started
 
@@ -31,7 +39,3 @@ You should also create an account on [Viagenie](http://numb.viagenie.ca/), and r
 * [WebRTC](https://webrtc.org/) - Used for real-time communication
 * [Firebase](https://firebase.google.com/) - Used for signaling
 * [Bootstrap](http://getbootstrap.com/) - Used for styling
-
-## Authors
-
-* **David Marcus**
