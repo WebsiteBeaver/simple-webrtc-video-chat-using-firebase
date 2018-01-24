@@ -4,11 +4,11 @@
     <link rel="stylesheet" type="text/css" href="css/style.css">
   </head>
   <body onload="showMyFace()">
-    <video id="yourVideo" autoplay muted></video>
-    <video id="friendsVideo" autoplay></video>
+    <video id="yourVideo" autoplay muted playsinline></video>
+    <video id="friendsVideo" autoplay playsinline></video>
     <br />
     <button onclick="showFriendsFace()" type="button" class="btn btn-primary btn-lg"><span class="glyphicon glyphicon-facetime-video" aria-hidden="true"></span> Call</button>
-    <script src="https://www.gstatic.com/firebasejs/3.6.4/firebase.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/4.9.0/firebase.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
